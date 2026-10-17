@@ -6,6 +6,8 @@
 
 > 把 Mistral Le Chat（现名 Vibe）网页版转成 OpenAI 兼容 API，本地跑、自己用——免费账号的网页额度也能走标准接口调用。
 
+> ⭐ 如果这个项目帮到了你，欢迎点个 star！
+
 ## ✨ 功能特性
 
 - **OpenAI 兼容** — `/v1/chat/completions` 与 `/v1/models`，支持 `stream` 流式
