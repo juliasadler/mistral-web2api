@@ -16,13 +16,19 @@
 
 ## 🚀 安装使用
 
+### 前置条件
+
+- Python 3.10+
+- 能访问 `chat.mistral.ai` 的网络
+- 一个 Mistral 账号（免费即可，建议用小号）
+
+### 安装
+
 ```bash
 git clone https://github.com/juliasadler/mistral-web2api.git
 cd mistral-web2api
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
-
-前置条件：Python 3.10+、能访问 `chat.mistral.ai` 的网络、一个 Mistral 账号（免费即可，建议用小号）。
 
 ## 快速开始
 
