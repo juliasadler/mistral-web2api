@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+.venv/
+__pycache__/
+
+# 内部工作文档（不公开）
+TODO.md
+WORKLOG.md
+RESEARCH.md
+INSTALL-TEST.md
+cdp/
+
+# 凭证与账号数据（绝不入库）
+*.key
+*token*
+*cookie*
+*.pem
+.env
+.proxy
+credentials/
+data/
+api_key.txt
+*.log
+
+# 前端调试残留
+package.json
+package-lock.json
