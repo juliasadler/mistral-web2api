@@ -3,10 +3,13 @@
 [![stars](https://img.shields.io/github/stars/juliasadler/mistral-web2api)](https://github.com/juliasadler/mistral-web2api/stargazers)
 [![license](https://img.shields.io/github/license/juliasadler/mistral-web2api)](./LICENSE)
 [![last-commit](https://img.shields.io/github/last-commit/juliasadler/mistral-web2api)](https://github.com/juliasadler/mistral-web2api/commits/main)
+[![CI](https://github.com/juliasadler/mistral-web2api/actions/workflows/ci.yml/badge.svg)](https://github.com/juliasadler/mistral-web2api/actions/workflows/ci.yml)
 
 > 把 Mistral Le Chat（现名 Vibe）网页版转成 OpenAI 兼容 API，本地跑、自己用——免费账号的网页额度也能走标准接口调用。
 
 > ⭐ 如果这个项目帮到了你，欢迎点个 star！
+
+[English](./README_en.md) | 中文
 
 ## ✨ 功能特性
 
@@ -47,6 +50,8 @@ curl http://127.0.0.1:8082/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{"model":"mistral-large-latest","messages":[{"role":"user","content":"你好"}],"stream":true}'
 ```
+
+Python 调用示例见 [`examples/simple_client.py`](./examples/simple_client.py)（用 OpenAI 官方客户端）。
 
 ## ⚠️ 限流说明
 

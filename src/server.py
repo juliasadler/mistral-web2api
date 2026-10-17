@@ -30,13 +30,10 @@ def get_api_key():
         return f.read().strip()
 
 
-API_KEY = get_api_key()
-
-
 def check_auth(authorization: str = ''):
     if not authorization.startswith('Bearer '):
         raise HTTPException(401, 'Missing Bearer token')
-    if authorization[7:] != API_KEY:
+    if authorization[7:] != get_api_key():
         raise HTTPException(401, 'Invalid API key')
 
 
